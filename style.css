@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Anton', sans-serif;
+}
+
+nav ul {
+    height: 7vh;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
+
+nav {
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    /* padding: 15px 10px 4px 20px; */
+    margin: 7px 10px 7px 20px;
+}
+
+nav ul li {
+
+    /* padding: 1vw; */
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    padding-left: 1vw;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+nav ul li a:hover {
+    color: whitesmoke;
+    font-weight: bold;
+
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 4px;
+    margin: 0 1vw 0 1vw;
+    padding: 0 15PX;
+}
+
+.container {
+    min-height: calc(100vh - 7vh - 7vh);
+}
+.slider{
+    width: 80vw;
+    margin: 10px 10vw ;
+    overflow: hidden;
+    
+}
+.cart{
+    background-color: whitesmoke;
+    margin: auto;
+    max-width: 93vw;
+    overflow: hidden;
+
+}
+.cart h2{
+    font-family: ' Courier, monospace;
+}
+.p1{
+    margin: 0 45px;
+    padding: 2px 0;
+
+}
+.p2{
+    margin: 0 30px;
+    padding: 1px 0;
+}
+.p3{
+    margin: 0 28px;
+    padding: 1px 0;
+    font-size: large;
+    font-weight: bold;
+}
+.cart-items{
+    display: inline-flex;
+    /* justify-content: center; */
+    margin: 10px 23px;
+
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.foot {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 7vh;
+    font-family: 'Anton', sans-serif;
+    margin-top: 20px;
+}
